@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="median.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2qW-H4-irI">
+                                <rect key="frame" x="57" y="344" width="260" height="273"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="HRT-Ib-ADk"/>
+                                    <constraint firstAttribute="height" constant="273" id="YdO-eT-gOl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="median.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fTv-t0-hBT">
+                                <rect key="frame" x="57" y="42" width="260" height="249"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="260" id="Sv7-R4-Iob"/>
+                                    <constraint firstAttribute="height" constant="249" id="zpz-9p-Psp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Median Filter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fR-lA-5Lg">
+                                <rect key="frame" x="57" y="309" width="260" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="C0r-3u-c4N"/>
+                                    <constraint firstAttribute="width" constant="260" id="GZg-4e-n1R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2qW-H4-irI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6tq-ob-C2R"/>
+                            <constraint firstItem="2qW-H4-irI" firstAttribute="top" secondItem="2fR-lA-5Lg" secondAttribute="bottom" constant="14" id="7et-Di-cgt"/>
+                            <constraint firstItem="fTv-t0-hBT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Lu-Yo-xNX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2qW-H4-irI" secondAttribute="bottom" constant="50" id="ZLk-pz-n8C"/>
+                            <constraint firstItem="fTv-t0-hBT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="xeg-Tk-ZHr"/>
+                            <constraint firstItem="2fR-lA-5Lg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xya-la-tHz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="2qW-H4-irI" id="Iqv-RW-crj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="median.jpg" width="755" height="503"/>
+    </resources>
+</document>
