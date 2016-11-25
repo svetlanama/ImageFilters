@@ -14,6 +14,9 @@
 		EAE413791DE7CA7A00A9C46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE413781DE7CA7A00A9C46C /* Assets.xcassets */; };
 		EAE4137C1DE7CA7A00A9C46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE4137A1DE7CA7A00A9C46C /* LaunchScreen.storyboard */; };
 		EAE413841DE7CAF600A9C46C /* median.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAE413831DE7CAF600A9C46C /* median.jpg */; };
+		EAE413871DE8219900A9C46C /* blured1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAE413851DE8219900A9C46C /* blured1.jpg */; };
+		EAE413881DE8219900A9C46C /* median.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EAE413861DE8219900A9C46C /* median.bmp */; };
+		EAE4138A1DE8221A00A9C46C /* blured.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAE413891DE8221A00A9C46C /* blured.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		EAE4137B1DE7CA7A00A9C46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE4137D1DE7CA7A00A9C46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE413831DE7CAF600A9C46C /* median.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = median.jpg; sourceTree = "<group>"; };
+		EAE413851DE8219900A9C46C /* blured1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blured1.jpg; sourceTree = "<group>"; };
+		EAE413861DE8219900A9C46C /* median.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = median.bmp; sourceTree = "<group>"; };
+		EAE413891DE8221A00A9C46C /* blured.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blured.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,9 @@
 				EAE413721DE7CA7A00A9C46C /* ViewController.h */,
 				EAE413731DE7CA7A00A9C46C /* ViewController.m */,
 				EAE413831DE7CAF600A9C46C /* median.jpg */,
+				EAE413851DE8219900A9C46C /* blured1.jpg */,
+				EAE413861DE8219900A9C46C /* median.bmp */,
+				EAE413891DE8221A00A9C46C /* blured.jpg */,
 				EAE413751DE7CA7A00A9C46C /* Main.storyboard */,
 				EAE413781DE7CA7A00A9C46C /* Assets.xcassets */,
 				EAE4137A1DE7CA7A00A9C46C /* LaunchScreen.storyboard */,
@@ -141,8 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE4137C1DE7CA7A00A9C46C /* LaunchScreen.storyboard in Resources */,
+				EAE413881DE8219900A9C46C /* median.bmp in Resources */,
 				EAE413791DE7CA7A00A9C46C /* Assets.xcassets in Resources */,
 				EAE413771DE7CA7A00A9C46C /* Main.storyboard in Resources */,
+				EAE413871DE8219900A9C46C /* blured1.jpg in Resources */,
+				EAE4138A1DE8221A00A9C46C /* blured.jpg in Resources */,
 				EAE413841DE7CAF600A9C46C /* median.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +323,7 @@
 				EAE413821DE7CA7A00A9C46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
